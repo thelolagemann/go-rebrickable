@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"strings"
 )
 
@@ -34,18 +35,51 @@ func NewClient(apiKey string, opts ...ClientOption) *Client {
 	return c
 }
 
-func (c *Client) Get(endpoint string, opts ...RequestOption) (*http.Response, error) {
-	req, err := http.NewRequest("GET", fmt.Sprintf("%v%v", baseURL, endpoint), nil)
+func (c *Client) newRequest(method, endpoint string, body io.Reader, opts ...RequestOption) (*http.Request, error) {
+	req, err := http.NewRequest(method, fmt.Sprintf("%v%v", baseURL, endpoint), body)
 	if err != nil {
 		return nil, err
 	}
 
-	// add api key
+	// add API key
 	req.Header.Add("Authorization", fmt.Sprintf("key %v", c.key))
 
-	// apply options
+	// apply opts
 	for _, opt := range opts {
 		opt(req)
+	}
+
+	return req, nil
+}
+
+func (c *Client) Delete(endpoint string, opts ...RequestOption) error {
+	req, err := c.newRequest("DELETE", endpoint, nil)
+	if err != nil {
+		return err
+	}
+
+	// apply request opts
+	for _, opt := range opts {
+		opt(req)
+	}
+
+	// do request
+	res, err := c.Do(req)
+	if err != nil {
+		return err
+	}
+
+	if res.StatusCode != http.StatusNoContent {
+		return fmt.Errorf("expected HTTP status code of 204, got: %v", res.StatusCode)
+	}
+
+	return nil
+}
+
+func (c *Client) Get(endpoint string, opts ...RequestOption) (*http.Response, error) {
+	req, err := c.newRequest("GET", endpoint, nil, opts...)
+	if err != nil {
+		return nil, err
 	}
 
 	return c.Do(req)
@@ -57,16 +91,66 @@ func (c *Client) GetDecode(endpoint string, paginated bool, dest interface{}, op
 		return err
 	}
 
-	if res.StatusCode != http.StatusOK {
-		return fmt.Errorf("http request not OK: %v", res.StatusCode)
+	return decodeJSON(res, paginated, dest)
+}
+
+func (c *Client) Patch(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
+	return c.formRequest("PATCH", endpoint, form, dest, opts...)
+}
+
+func (c *Client) Post(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
+	return c.formRequest("POST", endpoint, form, dest, opts...)
+}
+
+func (c *Client) Put(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
+	return c.formRequest("PUT", endpoint, form, dest, opts...)
+}
+
+// formRequest is a helper function to quickly create and
+// execute an HTTP request supplied with formData. Optionally
+// decoding the result into dest.
+func (c *Client) formRequest(method, endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
+	req, err := c.newRequest(method, endpoint, strings.NewReader(form.Encode()))
+	if err != nil {
+		return err
 	}
 
-	return decodeJSON(res, paginated, dest)
+	// set content-type header
+	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
+
+	// apply request opts
+	for _, opt := range opts {
+		opt(req)
+	}
+
+	res, err := c.Do(req)
+	if err != nil {
+		return err
+	}
+
+	if dest != nil {
+		return decodeJSON(res, false, dest)
+	}
+
+	return nil
 }
 
 func decodeJSON(r *http.Response, paginated bool, dest interface{}) error {
 	if r.Header.Get("Content-Type") != "application/json" {
 		return errors.New("Content-Type header is not application/json")
+	}
+
+	if !(r.StatusCode >= 200 && r.StatusCode < 300) {
+		type apiError struct {
+			Detail string `json:"detail"`
+		}
+		// try and decode error msg
+		aErr := apiError{}
+		if err := json.NewDecoder(r.Body).Decode(&aErr); err == nil {
+			return fmt.Errorf("http request not OK: %v", aErr.Detail)
+		} else {
+			return fmt.Errorf("http request not OK: %v", r.StatusCode)
+		}
 	}
 	dec := json.NewDecoder(r.Body)
 	dec.DisallowUnknownFields()
