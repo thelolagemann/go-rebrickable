@@ -47,7 +47,7 @@ to use a custom HTTP client.
 
 ```go
 httpClient := &http.Client{Timeout: time.Second * 30}
-client, _ := rbrick.NewLEGOClient(apiKey, rbrick.HTTPClient(httpClient))
+client := rbrick.NewLEGOClient(apiKey, rbrick.HTTPClient(httpClient))
 ```
 
 Several endpoints accept additional query parameters in order to filter your search. For example, to use a page size of
@@ -63,7 +63,7 @@ colors, _ := client.Colors(rbrick.PageSize(5))
 * [ ] implement all query parameters
 * [ ] improve test cases
 * [ ] document differences between Client and LEGOClient
-* [ ] add wider range of examples#
+* [ ] add wider range of examples
 * [ ] download and query local
 
 ### Contributing
