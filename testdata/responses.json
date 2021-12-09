@@ -1,1777 +1,2523 @@
 {
-  "colors/": {
-    "count": 190,
-    "next": "https://rebrickable.com/api/v3/lego/colors/?page=2&page_size=4",
-    "previous": null,
-    "results": [
-      {
-        "id": -1,
-        "name": "[Unknown]",
-        "rgb": "0033B2",
-        "is_trans": false,
-        "external_ids": {
-          "BrickOwl": {
-            "ext_ids": [
-              0,
-              28,
-              29,
-              30,
-              31,
-              32,
-              33,
-              34,
-              60,
-              135,
-              136,
-              137,
-              138,
-              139,
-              140,
-              141,
-              142,
-              143,
-              144,
-              145,
-              146,
-              147,
-              148,
-              149,
-              150,
-              151,
-              152,
-              153,
-              154,
-              156,
-              157,
-              158,
-              160,
-              162,
-              163,
-              169
-            ],
-            "ext_descrs": [
-              [
-                "Not Applicable"
+  "lego": {
+    "colors/": {
+      "count": 190,
+      "next": "https://rebrickable.com/api/v3/lego/colors/?page=2&page_size=4",
+      "previous": null,
+      "results": [
+        {
+          "id": -1,
+          "name": "[Unknown]",
+          "rgb": "0033B2",
+          "is_trans": false,
+          "external_ids": {
+            "BrickOwl": {
+              "ext_ids": [
+                0,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                60,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                156,
+                157,
+                158,
+                160,
+                162,
+                163,
+                169
               ],
-              [
-                "Modulex Medium Stone Gray"
-              ],
-              [
-                "Modulex Charcoal Gray"
-              ],
-              [
-                "Modulex Orange"
-              ],
-              [
-                "Modulex Ochre Yellow"
-              ],
-              [
-                "Modulex Olive Green"
-              ],
-              [
-                "Modulex Pastel Green"
-              ],
-              [
-                "Modulex Tile Blue"
-              ],
-              [
-                "Fabuland Orange"
-              ],
-              [
-                "Modulex Aqua Green"
-              ],
-              [
-                "Modulex Black"
-              ],
-              [
-                "Modulex Brown"
-              ],
-              [
-                "Modulex Buff"
-              ],
-              [
-                "Modulex Clear"
-              ],
-              [
-                "Modulex Lemon"
-              ],
-              [
-                "Modulex Light Gray"
-              ],
-              [
-                "Modulex Light Orange"
-              ],
-              [
-                "Modulex Light Yellow"
-              ],
-              [
-                "Modulex Medium Blue"
-              ],
-              [
-                "Modulex Pastel Blue"
-              ],
-              [
-                "Modulex Pink"
-              ],
-              [
-                "Modulex Pink Red"
-              ],
-              [
-                "Modulex Red"
-              ],
-              [
-                "Modulex Teal Blue"
-              ],
-              [
-                "Modulex Terracotta"
-              ],
-              [
-                "Modulex Tile Brown"
-              ],
-              [
-                "Modulex Tile Gray"
-              ],
-              [
-                "Modulex Violet"
-              ],
-              [
-                "Modulex White"
-              ],
-              [
-                "Warm Yellowish Orange"
-              ],
-              [
-                "Medium Yellowish Orange"
-              ],
-              [
-                "Reddish Orange"
-              ],
-              [
-                "Dark Nougat"
-              ],
-              [
-                "Transparent Fire Yellow"
-              ],
-              [
-                "Transparent Light Royal Blue"
-              ],
-              [
-                "Curry"
+              "ext_descrs": [
+                [
+                  "Not Applicable"
+                ],
+                [
+                  "Modulex Medium Stone Gray"
+                ],
+                [
+                  "Modulex Charcoal Gray"
+                ],
+                [
+                  "Modulex Orange"
+                ],
+                [
+                  "Modulex Ochre Yellow"
+                ],
+                [
+                  "Modulex Olive Green"
+                ],
+                [
+                  "Modulex Pastel Green"
+                ],
+                [
+                  "Modulex Tile Blue"
+                ],
+                [
+                  "Fabuland Orange"
+                ],
+                [
+                  "Modulex Aqua Green"
+                ],
+                [
+                  "Modulex Black"
+                ],
+                [
+                  "Modulex Brown"
+                ],
+                [
+                  "Modulex Buff"
+                ],
+                [
+                  "Modulex Clear"
+                ],
+                [
+                  "Modulex Lemon"
+                ],
+                [
+                  "Modulex Light Gray"
+                ],
+                [
+                  "Modulex Light Orange"
+                ],
+                [
+                  "Modulex Light Yellow"
+                ],
+                [
+                  "Modulex Medium Blue"
+                ],
+                [
+                  "Modulex Pastel Blue"
+                ],
+                [
+                  "Modulex Pink"
+                ],
+                [
+                  "Modulex Pink Red"
+                ],
+                [
+                  "Modulex Red"
+                ],
+                [
+                  "Modulex Teal Blue"
+                ],
+                [
+                  "Modulex Terracotta"
+                ],
+                [
+                  "Modulex Tile Brown"
+                ],
+                [
+                  "Modulex Tile Gray"
+                ],
+                [
+                  "Modulex Violet"
+                ],
+                [
+                  "Modulex White"
+                ],
+                [
+                  "Warm Yellowish Orange"
+                ],
+                [
+                  "Medium Yellowish Orange"
+                ],
+                [
+                  "Reddish Orange"
+                ],
+                [
+                  "Dark Nougat"
+                ],
+                [
+                  "Transparent Fire Yellow"
+                ],
+                [
+                  "Transparent Light Royal Blue"
+                ],
+                [
+                  "Curry"
+                ]
               ]
-            ]
-          },
-          "LEGO": {
-            "ext_ids": [
-              16,
-              125,
-              158,
-              176,
-              178,
-              180
-            ],
-            "ext_descrs": [
-              [
-                "Pink"
+            },
+            "LEGO": {
+              "ext_ids": [
+                16,
+                125,
+                158,
+                176,
+                178,
+                180
               ],
-              [
-                "Light Orange"
-              ],
-              [
-                "Tr. Flu. Red"
-              ],
-              [
-                "Red Flip/Flop"
-              ],
-              [
-                "Yellow Flip/Flop"
-              ],
-              [
-                "Curry"
+              "ext_descrs": [
+                [
+                  "Pink"
+                ],
+                [
+                  "Light Orange"
+                ],
+                [
+                  "Tr. Flu. Red"
+                ],
+                [
+                  "Red Flip/Flop"
+                ],
+                [
+                  "Yellow Flip/Flop"
+                ],
+                [
+                  "Curry"
+                ]
               ]
-            ]
-          },
-          "Peeron": {
-            "ext_ids": [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
-            ],
-            "ext_descrs": [
-              [
-                "blackgoldglitter"
+            },
+            "Peeron": {
+              "ext_ids": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
               ],
-              [
-                "curry"
-              ],
-              [
-                "dknougat"
-              ],
-              [
-                "ffred"
-              ],
-              [
-                "ffyellow"
-              ],
-              [
-                "fabulime"
-              ],
-              [
-                "fabuorange"
-              ],
-              [
-                "metalliccopper"
-              ],
-              [
-                "metallicwhite"
-              ],
-              [
-                "neonblue"
-              ],
-              [
-                "pearlgreen"
-              ],
-              [
-                "pearlescentpink"
-              ],
-              [
-                "redpink"
-              ],
-              [
-                "trltgreen"
-              ],
-              [
-                "trsalmon"
+              "ext_descrs": [
+                [
+                  "blackgoldglitter"
+                ],
+                [
+                  "curry"
+                ],
+                [
+                  "dknougat"
+                ],
+                [
+                  "ffred"
+                ],
+                [
+                  "ffyellow"
+                ],
+                [
+                  "fabulime"
+                ],
+                [
+                  "fabuorange"
+                ],
+                [
+                  "metalliccopper"
+                ],
+                [
+                  "metallicwhite"
+                ],
+                [
+                  "neonblue"
+                ],
+                [
+                  "pearlgreen"
+                ],
+                [
+                  "pearlescentpink"
+                ],
+                [
+                  "redpink"
+                ],
+                [
+                  "trltgreen"
+                ],
+                [
+                  "trsalmon"
+                ]
               ]
-            ]
-          },
-          "LDraw": {
-            "ext_ids": [
-              16,
-              24,
-              65,
-              66,
-              67,
-              273,
-              324,
-              375,
-              406,
-              449,
-              490,
-              493,
-              494,
-              495,
-              496,
-              504,
-              511
-            ],
-            "ext_descrs": [
-              [
-                "Main_Colour"
+            },
+            "LDraw": {
+              "ext_ids": [
+                16,
+                24,
+                65,
+                66,
+                67,
+                273,
+                324,
+                375,
+                406,
+                449,
+                490,
+                493,
+                494,
+                495,
+                496,
+                504,
+                511
               ],
-              [
-                "Edge_Colour"
-              ],
-              [
-                "Rubber_Yellow"
-              ],
-              [
-                "Rubber_Trans_Yellow"
-              ],
-              [
-                "Rubber_Trans_Clear"
-              ],
-              [
-                "Rubber_Blue"
-              ],
-              [
-                "Rubber_Red"
-              ],
-              [
-                "Rubber_Light_Gray"
-              ],
-              [
-                "Rubber_Dark_Blue"
-              ],
-              [
-                "Rubber_Purple"
-              ],
-              [
-                "Rubber_Lime"
-              ],
-              [
-                "Magnet"
-              ],
-              [
-                "Electric_Contact_Alloy"
-              ],
-              [
-                "Electric_Contact_Copper"
-              ],
-              [
-                "Rubber_Light_Bluish_Gray"
-              ],
-              [
-                "Rubber_Flat_Silver"
-              ],
-              [
-                "Rubber_White"
+              "ext_descrs": [
+                [
+                  "Main_Colour"
+                ],
+                [
+                  "Edge_Colour"
+                ],
+                [
+                  "Rubber_Yellow"
+                ],
+                [
+                  "Rubber_Trans_Yellow"
+                ],
+                [
+                  "Rubber_Trans_Clear"
+                ],
+                [
+                  "Rubber_Blue"
+                ],
+                [
+                  "Rubber_Red"
+                ],
+                [
+                  "Rubber_Light_Gray"
+                ],
+                [
+                  "Rubber_Dark_Blue"
+                ],
+                [
+                  "Rubber_Purple"
+                ],
+                [
+                  "Rubber_Lime"
+                ],
+                [
+                  "Magnet"
+                ],
+                [
+                  "Electric_Contact_Alloy"
+                ],
+                [
+                  "Electric_Contact_Copper"
+                ],
+                [
+                  "Rubber_Light_Bluish_Gray"
+                ],
+                [
+                  "Rubber_Flat_Silver"
+                ],
+                [
+                  "Rubber_White"
+                ]
               ]
-            ]
+            }
+          }
+        },
+        {
+          "id": 0,
+          "name": "Black",
+          "rgb": "05131D",
+          "is_trans": false,
+          "external_ids": {
+            "BrickLink": {
+              "ext_ids": [
+                11
+              ],
+              "ext_descrs": [
+                [
+                  "Black"
+                ]
+              ]
+            },
+            "BrickOwl": {
+              "ext_ids": [
+                38
+              ],
+              "ext_descrs": [
+                [
+                  "Black"
+                ]
+              ]
+            },
+            "LEGO": {
+              "ext_ids": [
+                26,
+                149,
+                1012
+              ],
+              "ext_descrs": [
+                [
+                  "Black",
+                  "BLACK"
+                ],
+                [
+                  "Metallic Black",
+                  "MET.BLACK"
+                ],
+                [
+                  "CONDUCT. BLACK"
+                ]
+              ]
+            },
+            "Peeron": {
+              "ext_ids": [
+                null
+              ],
+              "ext_descrs": [
+                [
+                  "black"
+                ]
+              ]
+            },
+            "LDraw": {
+              "ext_ids": [
+                0,
+                256
+              ],
+              "ext_descrs": [
+                [
+                  "Black"
+                ],
+                [
+                  "Rubber_Black"
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": 1,
+          "name": "Blue",
+          "rgb": "0055BF",
+          "is_trans": false,
+          "external_ids": {
+            "BrickLink": {
+              "ext_ids": [
+                7
+              ],
+              "ext_descrs": [
+                [
+                  "Blue"
+                ]
+              ]
+            },
+            "BrickOwl": {
+              "ext_ids": [
+                39
+              ],
+              "ext_descrs": [
+                [
+                  "Blue"
+                ]
+              ]
+            },
+            "LEGO": {
+              "ext_ids": [
+                23,
+                185
+              ],
+              "ext_descrs": [
+                [
+                  "Bright Blue",
+                  "BR.BLUE"
+                ],
+                [
+                  "Metallic Bright Blue",
+                  "MET. BR. BLUE"
+                ]
+              ]
+            },
+            "Peeron": {
+              "ext_ids": [
+                null
+              ],
+              "ext_descrs": [
+                [
+                  "blue"
+                ]
+              ]
+            },
+            "LDraw": {
+              "ext_ids": [
+                1
+              ],
+              "ext_descrs": [
+                [
+                  "Blue"
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "name": "Green",
+          "rgb": "237841",
+          "is_trans": false,
+          "external_ids": {
+            "BrickLink": {
+              "ext_ids": [
+                6
+              ],
+              "ext_descrs": [
+                [
+                  "Green"
+                ]
+              ]
+            },
+            "BrickOwl": {
+              "ext_ids": [
+                61
+              ],
+              "ext_descrs": [
+                [
+                  "Green"
+                ]
+              ]
+            },
+            "LEGO": {
+              "ext_ids": [
+                28,
+                186
+              ],
+              "ext_descrs": [
+                [
+                  "Dark green",
+                  "DK.GREEN"
+                ],
+                [
+                  "Metallic Dark Green",
+                  "MET. DK. GREEN"
+                ]
+              ]
+            },
+            "Peeron": {
+              "ext_ids": [
+                null
+              ],
+              "ext_descrs": [
+                [
+                  "green"
+                ]
+              ]
+            },
+            "LDraw": {
+              "ext_ids": [
+                2,
+                186
+              ],
+              "ext_descrs": [
+                [
+                  "Green"
+                ],
+                [
+                  "Metallic_Dark_Green"
+                ]
+              ]
+            }
           }
         }
-      },
-      {
-        "id": 0,
-        "name": "Black",
-        "rgb": "05131D",
-        "is_trans": false,
-        "external_ids": {
-          "BrickLink": {
-            "ext_ids": [
-              11
-            ],
-            "ext_descrs": [
-              [
-                "Black"
-              ]
-            ]
-          },
-          "BrickOwl": {
-            "ext_ids": [
-              38
-            ],
-            "ext_descrs": [
-              [
-                "Black"
-              ]
-            ]
-          },
-          "LEGO": {
-            "ext_ids": [
-              26,
-              149,
-              1012
-            ],
-            "ext_descrs": [
-              [
-                "Black",
-                "BLACK"
-              ],
-              [
-                "Metallic Black",
-                "MET.BLACK"
-              ],
-              [
-                "CONDUCT. BLACK"
-              ]
-            ]
-          },
-          "Peeron": {
-            "ext_ids": [
-              null
-            ],
-            "ext_descrs": [
-              [
-                "black"
-              ]
-            ]
-          },
-          "LDraw": {
-            "ext_ids": [
-              0,
-              256
-            ],
-            "ext_descrs": [
-              [
-                "Black"
-              ],
-              [
-                "Rubber_Black"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "id": 1,
-        "name": "Blue",
-        "rgb": "0055BF",
-        "is_trans": false,
-        "external_ids": {
-          "BrickLink": {
-            "ext_ids": [
-              7
-            ],
-            "ext_descrs": [
-              [
-                "Blue"
-              ]
-            ]
-          },
-          "BrickOwl": {
-            "ext_ids": [
-              39
-            ],
-            "ext_descrs": [
-              [
-                "Blue"
-              ]
-            ]
-          },
-          "LEGO": {
-            "ext_ids": [
-              23,
-              185
-            ],
-            "ext_descrs": [
-              [
-                "Bright Blue",
-                "BR.BLUE"
-              ],
-              [
-                "Metallic Bright Blue",
-                "MET. BR. BLUE"
-              ]
-            ]
-          },
-          "Peeron": {
-            "ext_ids": [
-              null
-            ],
-            "ext_descrs": [
-              [
-                "blue"
-              ]
-            ]
-          },
-          "LDraw": {
-            "ext_ids": [
-              1
-            ],
-            "ext_descrs": [
-              [
-                "Blue"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "id": 2,
-        "name": "Green",
-        "rgb": "237841",
-        "is_trans": false,
-        "external_ids": {
-          "BrickLink": {
-            "ext_ids": [
-              6
-            ],
-            "ext_descrs": [
-              [
-                "Green"
-              ]
-            ]
-          },
-          "BrickOwl": {
-            "ext_ids": [
-              61
-            ],
-            "ext_descrs": [
-              [
-                "Green"
-              ]
-            ]
-          },
-          "LEGO": {
-            "ext_ids": [
-              28,
-              186
-            ],
-            "ext_descrs": [
-              [
-                "Dark green",
-                "DK.GREEN"
-              ],
-              [
-                "Metallic Dark Green",
-                "MET. DK. GREEN"
-              ]
-            ]
-          },
-          "Peeron": {
-            "ext_ids": [
-              null
-            ],
-            "ext_descrs": [
-              [
-                "green"
-              ]
-            ]
-          },
-          "LDraw": {
-            "ext_ids": [
-              2,
-              186
-            ],
-            "ext_descrs": [
-              [
-                "Green"
-              ],
-              [
-                "Metallic_Dark_Green"
-              ]
-            ]
-          }
-        }
-      }
-    ]
-  },
-  "colors/212": {
-    "id": 212,
-    "name": "Bright Light Blue",
-    "rgb": "9FC3E9",
-    "is_trans": false,
-    "external_ids": {
-      "BrickLink": {
-        "ext_ids": [
-          105
-        ],
-        "ext_descrs": [
-          [
-            "Bright Light Blue"
-          ]
-        ]
-      },
-      "BrickOwl": {
-        "ext_ids": [
-          42
-        ],
-        "ext_descrs": [
-          [
-            "Bright Light Blue"
-          ]
-        ]
-      },
-      "LEGO": {
-        "ext_ids": [
-          212
-        ],
-        "ext_descrs": [
-          [
-            "Light Royal blue",
-            "LGH. ROY. BLUE"
-          ]
-        ]
-      },
-      "Peeron": {
-        "ext_ids": [
-          null,
-          null
-        ],
-        "ext_descrs": [
-          [
-            "ltroyalblue"
-          ],
-          [
-            "btltblue"
-          ]
-        ]
-      },
-      "LDraw": {
-        "ext_ids": [
-          212
-        ],
-        "ext_descrs": [
-          [
-            "Bright_Light_Blue"
-          ]
-        ]
-      }
-    }
-  },
-  "elements/6143875": {
-    "part": {
-      "part_num": "3062bpr0007",
-      "name": "Brick Round 1 x 1 Open Stud with 'Power Bolt' Print",
-      "part_cat_id": 20,
-      "year_from": 2016,
-      "year_to": 2016,
-      "part_url": "https://rebrickable.com/parts/3062bpr0007/brick-round-1-x-1-open-stud-with-power-bolt-print/",
-      "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6143875.jpg",
-      "prints": [],
-      "molds": [],
-      "alternates": [],
-      "external_ids": {
-        "BrickLink": [
-          "3062bpb046"
-        ],
-        "BrickOwl": [
-          "781653"
-        ],
-        "Brickset": [
-          "25934"
-        ],
-        "LEGO": [
-          "25934"
-        ]
-      },
-      "print_of": "3062b"
+      ]
     },
-    "color": {
-      "id": 27,
-      "name": "Lime",
-      "rgb": "BBE90B",
+    "colors/212": {
+      "id": 212,
+      "name": "Bright Light Blue",
+      "rgb": "9FC3E9",
       "is_trans": false,
       "external_ids": {
         "BrickLink": {
           "ext_ids": [
-            34
+            105
           ],
           "ext_descrs": [
             [
-              "Lime"
+              "Bright Light Blue"
             ]
           ]
         },
         "BrickOwl": {
           "ext_ids": [
-            70
+            42
           ],
           "ext_descrs": [
             [
-              "Lime"
+              "Bright Light Blue"
             ]
           ]
         },
         "LEGO": {
           "ext_ids": [
-            119
+            212
           ],
           "ext_descrs": [
             [
-              "Br. yellowish green",
-              "BR.YEL-GREEN"
+              "Light Royal blue",
+              "LGH. ROY. BLUE"
             ]
           ]
         },
         "Peeron": {
           "ext_ids": [
+            null,
             null
           ],
           "ext_descrs": [
             [
-              "lime"
+              "ltroyalblue"
+            ],
+            [
+              "btltblue"
             ]
           ]
         },
         "LDraw": {
           "ext_ids": [
-            27
+            212
           ],
           "ext_descrs": [
             [
-              "Lime"
+              "Bright_Light_Blue"
             ]
           ]
         }
       }
     },
-    "element_id": "6143875",
-    "design_id": "",
-    "element_img_url": "https://cdn.rebrickable.com/media/parts/elements/6143875.jpg",
-    "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6143875.jpg"
-  },
-  "minifigs": {
-    "count": 11582,
-    "next": "https://rebrickable.com/api/v3/lego/minifigs/?page=2&page_size=4",
-    "previous": null,
-    "results": [
-      {
-        "set_num": "fig-000001",
-        "name": "Toy Store Employee",
-        "num_parts": 4,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000001/63692.jpg",
-        "set_url": "https://rebrickable.com/minifigs/fig-000001/toy-store-employee/",
-        "last_modified_dt": "2020-05-27T21:47:00.694941Z"
+    "elements/6143875": {
+      "part": {
+        "part_num": "3062bpr0007",
+        "name": "Brick Round 1 x 1 Open Stud with 'Power Bolt' Print",
+        "part_cat_id": 20,
+        "year_from": 2016,
+        "year_to": 2016,
+        "part_url": "https://rebrickable.com/parts/3062bpr0007/brick-round-1-x-1-open-stud-with-power-bolt-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6143875.jpg",
+        "prints": [],
+        "molds": [],
+        "alternates": [],
+        "external_ids": {
+          "BrickLink": [
+            "3062bpb046"
+          ],
+          "BrickOwl": [
+            "781653"
+          ],
+          "Brickset": [
+            "25934"
+          ],
+          "LEGO": [
+            "25934"
+          ]
+        },
+        "print_of": "3062b"
       },
-      {
-        "set_num": "fig-000002",
-        "name": "Customer Kid",
-        "num_parts": 4,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000002/63691.jpg",
-        "set_url": "https://rebrickable.com/minifigs/fig-000002/customer-kid/",
-        "last_modified_dt": "2020-05-27T21:47:11.750470Z"
-      },
-      {
-        "set_num": "fig-000003",
-        "name": "Assassin Droid, White",
-        "num_parts": 8,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000003/56170.jpg",
-        "set_url": "https://rebrickable.com/minifigs/fig-000003/assassin-droid-white/",
-        "last_modified_dt": "2020-06-20T00:49:06.811000Z"
-      },
-      {
-        "set_num": "fig-000004",
-        "name": "Basic Figure",
-        "num_parts": 4,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000004/60741.jpg",
-        "set_url": "https://rebrickable.com/minifigs/fig-000004/basic-figure/",
-        "last_modified_dt": "2020-04-09T06:06:08.127005Z"
-      }
-    ]
-  },
-  "minifigs/fig-000003": {
-    "set_num": "fig-000003",
-    "name": "Assassin Droid, White",
-    "num_parts": 8,
-    "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000003/56170.jpg",
-    "set_url": "https://rebrickable.com/minifigs/fig-000003/assassin-droid-white/",
-    "last_modified_dt": "2020-06-20T00:49:06.811000Z"
-  },
-  "minifigs/fig-000003/parts": {
-    "count": 7,
-    "next": "https://rebrickable.com/api/v3/lego/minifigs/fig-000003/parts/?page=2&page_size=2",
-    "previous": null,
-    "results": [
-      {
-        "id": 3908696,
-        "inv_part_id": 3908696,
-        "part": {
-          "part_num": "48729b",
-          "name": "Bar 1L with Clip [Cut Edges and One Side Hole]",
-          "part_cat_id": 32,
-          "part_url": "https://rebrickable.com/parts/48729b/bar-1l-with-clip-cut-edges-and-one-side-hole/",
-          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4289538.jpg",
-          "external_ids": {
-            "BrickLink": [
-              "48729b"
+      "color": {
+        "id": 27,
+        "name": "Lime",
+        "rgb": "BBE90B",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              34
             ],
-            "BrickOwl": [
-              "664516"
-            ],
-            "Brickset": [
-              "41005",
-              "48729",
-              "55529",
-              "86022",
-              "88428"
-            ],
-            "LEGO": [
-              "41005",
-              "48729",
-              "55529",
-              "86022",
-              "88428"
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
             ]
           },
-          "print_of": null
-        },
-        "color": {
-          "id": 0,
-          "name": "Black",
-          "rgb": "05131D",
-          "is_trans": false,
-          "external_ids": {
-            "BrickLink": {
-              "ext_ids": [
-                11
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "BrickOwl": {
-              "ext_ids": [
-                38
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "LEGO": {
-              "ext_ids": [
-                26,
-                149,
-                1012
-              ],
-              "ext_descrs": [
-                [
-                  "Black",
-                  "BLACK"
-                ],
-                [
-                  "Metallic Black",
-                  "MET.BLACK"
-                ],
-                [
-                  "CONDUCT. BLACK"
-                ]
-              ]
-            },
-            "Peeron": {
-              "ext_ids": [
-                null
-              ],
-              "ext_descrs": [
-                [
-                  "black"
-                ]
-              ]
-            },
-            "LDraw": {
-              "ext_ids": [
-                0,
-                256
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ],
-                [
-                  "Rubber_Black"
-                ]
-              ]
-            }
-          }
-        },
-        "set_num": "fig-000003",
-        "quantity": 1,
-        "is_spare": false,
-        "element_id": "6278152",
-        "num_sets": 331
-      },
-      {
-        "id": 3908698,
-        "inv_part_id": 3908698,
-        "part": {
-          "part_num": "6141",
-          "name": "Plate Round 1 x 1 with Solid Stud",
-          "part_cat_id": 21,
-          "part_url": "https://rebrickable.com/parts/6141/plate-round-1-x-1-with-solid-stud/",
-          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/3005747.jpg",
-          "external_ids": {
-            "BrickLink": [
-              "4073"
+          "BrickOwl": {
+            "ext_ids": [
+              70
             ],
-            "BrickOwl": [
-              "961948"
-            ],
-            "Brickset": [
-              "15570",
-              "30057",
-              "34823",
-              "39799",
-              "44325",
-              "6141"
-            ],
-            "LDraw": [
-              "4073",
-              "6141"
-            ],
-            "LEGO": [
-              "15570",
-              "30057",
-              "34823",
-              "39799",
-              "44325",
-              "51809",
-              "6141"
-            ],
-            "Peeron": [
-              "4073"
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
             ]
           },
-          "print_of": null
-        },
-        "color": {
-          "id": 57,
-          "name": "Trans-Neon Orange",
-          "rgb": "FF800D",
-          "is_trans": true,
-          "external_ids": {
-            "BrickLink": {
-              "ext_ids": [
-                18
-              ],
-              "ext_descrs": [
-                [
-                  "Trans-Neon Orange"
-                ]
+          "LEGO": {
+            "ext_ids": [
+              119
+            ],
+            "ext_descrs": [
+              [
+                "Br. yellowish green",
+                "BR.YEL-GREEN"
               ]
-            },
-            "BrickOwl": {
-              "ext_ids": [
-                161
-              ],
-              "ext_descrs": [
-                [
-                  "Transparent Neon Reddish Orange"
-                ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lime"
               ]
-            },
-            "LEGO": {
-              "ext_ids": [
-                47
-              ],
-              "ext_descrs": [
-                [
-                  "Tr. Flu. Reddish orange",
-                  "TR.FL.REDORA"
-                ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              27
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
               ]
-            },
-            "Peeron": {
-              "ext_ids": [
-                null
-              ],
-              "ext_descrs": [
-                [
-                  "trneonorange"
-                ]
-              ]
-            },
-            "LDraw": {
-              "ext_ids": [
-                38
-              ],
-              "ext_descrs": [
-                [
-                  "Trans_Neon_Orange"
-                ]
-              ]
-            }
+            ]
           }
-        },
-        "set_num": "fig-000003",
-        "quantity": 1,
-        "is_spare": false,
-        "element_id": "6240218",
-        "num_sets": 330
-      }
-    ]
-  },
-  "minifigs/fig-000003/sets": {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-      {
-        "set_num": "10188-1",
-        "name": "Death Star",
-        "num_parts": 3809,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/10188-1/52658.jpg",
-        "set_url": "https://rebrickable.com/sets/10188-1/death-star/",
-        "last_modified_dt": "2019-11-02T18:57:54.351369Z"
-      }
-    ]
-  },
-  "part_categories": {
-    "count": 66,
-    "next": "https://rebrickable.com/api/v3/lego/part_categories/?page=2&page_size=2",
-    "previous": null,
-    "results": [
-      {
-        "id": 1,
-        "name": "Baseplates",
-        "part_count": 236
+        }
       },
-      {
-        "id": 3,
-        "name": "Bricks Sloped",
-        "part_count": 520
-      }
-    ]
-  },
-  "part_categories/3": {
-    "id": 3,
-    "name": "Bricks Sloped",
-    "part_count": 520
-  },
-  "parts": {
-    "count": 44038,
-    "next": "https://rebrickable.com/api/v3/lego/parts/?page=2&page_size=4",
-    "previous": null,
-    "results": [
-      {
-        "part_num": "003381",
-        "name": "Sticker Sheet for Set 663-1",
-        "part_cat_id": 58,
-        "part_url": "https://rebrickable.com/parts/003381/sticker-sheet-for-set-663-1/",
-        "part_img_url": null,
-        "external_ids": {
-          "BrickLink": [
-            "663stk01"
-          ],
-          "BrickOwl": [
-            "781719"
-          ]
+      "element_id": "6143875",
+      "design_id": "",
+      "element_img_url": "https://cdn.rebrickable.com/media/parts/elements/6143875.jpg",
+      "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6143875.jpg"
+    },
+    "minifigs": {
+      "count": 11582,
+      "next": "https://rebrickable.com/api/v3/lego/minifigs/?page=2&page_size=4",
+      "previous": null,
+      "results": [
+        {
+          "set_num": "fig-000001",
+          "name": "Toy Store Employee",
+          "num_parts": 4,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000001/63692.jpg",
+          "set_url": "https://rebrickable.com/minifigs/fig-000001/toy-store-employee/",
+          "last_modified_dt": "2020-05-27T21:47:00.694941Z"
         },
-        "print_of": null
-      },
-      {
-        "part_num": "003383",
-        "name": "Sticker Sheet for Sets 618-1, 628-2",
-        "part_cat_id": 58,
-        "part_url": "https://rebrickable.com/parts/003383/sticker-sheet-for-sets-618-1-628-2/",
-        "part_img_url": null,
-        "external_ids": {
-          "BrickLink": [
-            "618stk01",
-            "628.2stk01"
-          ],
-          "BrickOwl": [
-            "273314"
-          ]
+        {
+          "set_num": "fig-000002",
+          "name": "Customer Kid",
+          "num_parts": 4,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000002/63691.jpg",
+          "set_url": "https://rebrickable.com/minifigs/fig-000002/customer-kid/",
+          "last_modified_dt": "2020-05-27T21:47:11.750470Z"
         },
-        "print_of": null
-      },
-      {
-        "part_num": "003402",
-        "name": "Sticker Sheet for Sets 310-3, 311-1, 312-3",
-        "part_cat_id": 58,
-        "part_url": "https://rebrickable.com/parts/003402/sticker-sheet-for-sets-310-3-311-1-312-3/",
-        "part_img_url": "https://cdn.rebrickable.com/media/parts/photos/9999/003402-9999-f8670748-ef16-4530-a3fc-d935120c6dce.jpg",
-        "external_ids": {
-          "BrickLink": [
-            "310.3stk01",
-            "311.1stk01",
-            "312.3stk01"
-          ],
-          "BrickOwl": [
-            "484252"
-          ]
+        {
+          "set_num": "fig-000003",
+          "name": "Assassin Droid, White",
+          "num_parts": 8,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000003/56170.jpg",
+          "set_url": "https://rebrickable.com/minifigs/fig-000003/assassin-droid-white/",
+          "last_modified_dt": "2020-06-20T00:49:06.811000Z"
         },
-        "print_of": null
-      },
-      {
-        "part_num": "003429",
-        "name": "Sticker Sheet for Set 1550-1",
-        "part_cat_id": 58,
-        "part_url": "https://rebrickable.com/parts/003429/sticker-sheet-for-set-1550-1/",
-        "part_img_url": null,
-        "external_ids": {
-          "BrickLink": [
-            "1550stk01"
-          ],
-          "BrickOwl": [
-            "776184"
-          ]
-        },
-        "print_of": null
-      }
-    ]
-  },
-  "parts/15104": {
-    "part_num": "15104",
-    "name": "Equipment Bracket 4 x 2 x 2 No Studs with Axle Hole",
-    "part_cat_id": 27,
-    "year_from": 2014,
-    "year_to": 2014,
-    "part_url": "https://rebrickable.com/parts/15104/equipment-bracket-4-x-2-x-2-no-studs-with-axle-hole/",
-    "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069867.jpg",
-    "prints": [],
-    "molds": [],
-    "alternates": [],
-    "external_ids": {
-      "BrickOwl": [
-        "627975"
-      ],
-      "Brickset": [
-        "15104"
-      ],
-      "LEGO": [
-        "15104"
+        {
+          "set_num": "fig-000004",
+          "name": "Basic Figure",
+          "num_parts": 4,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000004/60741.jpg",
+          "set_url": "https://rebrickable.com/minifigs/fig-000004/basic-figure/",
+          "last_modified_dt": "2020-04-09T06:06:08.127005Z"
+        }
       ]
     },
-    "print_of": null
-  },
-  "parts/15104/colors": {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-      {
-        "color_id": 41,
-        "color_name": "Trans-Light Blue",
-        "num_sets": 2,
-        "num_set_parts": 2,
-        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069866.jpg",
-        "elements": [
-          "6069866"
+    "minifigs/fig-000003": {
+      "set_num": "fig-000003",
+      "name": "Assassin Droid, White",
+      "num_parts": 8,
+      "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000003/56170.jpg",
+      "set_url": "https://rebrickable.com/minifigs/fig-000003/assassin-droid-white/",
+      "last_modified_dt": "2020-06-20T00:49:06.811000Z"
+    },
+    "minifigs/fig-000003/parts": {
+      "count": 7,
+      "next": "https://rebrickable.com/api/v3/lego/minifigs/fig-000003/parts/?page=2&page_size=2",
+      "previous": null,
+      "results": [
+        {
+          "id": 3908696,
+          "inv_part_id": 3908696,
+          "part": {
+            "part_num": "48729b",
+            "name": "Bar 1L with Clip [Cut Edges and One Side Hole]",
+            "part_cat_id": 32,
+            "part_url": "https://rebrickable.com/parts/48729b/bar-1l-with-clip-cut-edges-and-one-side-hole/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4289538.jpg",
+            "external_ids": {
+              "BrickLink": [
+                "48729b"
+              ],
+              "BrickOwl": [
+                "664516"
+              ],
+              "Brickset": [
+                "41005",
+                "48729",
+                "55529",
+                "86022",
+                "88428"
+              ],
+              "LEGO": [
+                "41005",
+                "48729",
+                "55529",
+                "86022",
+                "88428"
+              ]
+            },
+            "print_of": null
+          },
+          "color": {
+            "id": 0,
+            "name": "Black",
+            "rgb": "05131D",
+            "is_trans": false,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  11
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  38
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  26,
+                  149,
+                  1012
+                ],
+                "ext_descrs": [
+                  [
+                    "Black",
+                    "BLACK"
+                  ],
+                  [
+                    "Metallic Black",
+                    "MET.BLACK"
+                  ],
+                  [
+                    "CONDUCT. BLACK"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "black"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  0,
+                  256
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ],
+                  [
+                    "Rubber_Black"
+                  ]
+                ]
+              }
+            }
+          },
+          "set_num": "fig-000003",
+          "quantity": 1,
+          "is_spare": false,
+          "element_id": "6278152",
+          "num_sets": 331
+        },
+        {
+          "id": 3908698,
+          "inv_part_id": 3908698,
+          "part": {
+            "part_num": "6141",
+            "name": "Plate Round 1 x 1 with Solid Stud",
+            "part_cat_id": 21,
+            "part_url": "https://rebrickable.com/parts/6141/plate-round-1-x-1-with-solid-stud/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/3005747.jpg",
+            "external_ids": {
+              "BrickLink": [
+                "4073"
+              ],
+              "BrickOwl": [
+                "961948"
+              ],
+              "Brickset": [
+                "15570",
+                "30057",
+                "34823",
+                "39799",
+                "44325",
+                "6141"
+              ],
+              "LDraw": [
+                "4073",
+                "6141"
+              ],
+              "LEGO": [
+                "15570",
+                "30057",
+                "34823",
+                "39799",
+                "44325",
+                "51809",
+                "6141"
+              ],
+              "Peeron": [
+                "4073"
+              ]
+            },
+            "print_of": null
+          },
+          "color": {
+            "id": 57,
+            "name": "Trans-Neon Orange",
+            "rgb": "FF800D",
+            "is_trans": true,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  18
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans-Neon Orange"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  161
+                ],
+                "ext_descrs": [
+                  [
+                    "Transparent Neon Reddish Orange"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  47
+                ],
+                "ext_descrs": [
+                  [
+                    "Tr. Flu. Reddish orange",
+                    "TR.FL.REDORA"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "trneonorange"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  38
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans_Neon_Orange"
+                  ]
+                ]
+              }
+            }
+          },
+          "set_num": "fig-000003",
+          "quantity": 1,
+          "is_spare": false,
+          "element_id": "6240218",
+          "num_sets": 330
+        }
+      ]
+    },
+    "minifigs/fig-000003/sets": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "set_num": "10188-1",
+          "name": "Death Star",
+          "num_parts": 3809,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/10188-1/52658.jpg",
+          "set_url": "https://rebrickable.com/sets/10188-1/death-star/",
+          "last_modified_dt": "2019-11-02T18:57:54.351369Z"
+        }
+      ]
+    },
+    "part_categories": {
+      "count": 66,
+      "next": "https://rebrickable.com/api/v3/lego/part_categories/?page=2&page_size=2",
+      "previous": null,
+      "results": [
+        {
+          "id": 1,
+          "name": "Baseplates",
+          "part_count": 236
+        },
+        {
+          "id": 3,
+          "name": "Bricks Sloped",
+          "part_count": 520
+        }
+      ]
+    },
+    "part_categories/3": {
+      "id": 3,
+      "name": "Bricks Sloped",
+      "part_count": 520
+    },
+    "parts": {
+      "count": 44038,
+      "next": "https://rebrickable.com/api/v3/lego/parts/?page=2&page_size=4",
+      "previous": null,
+      "results": [
+        {
+          "part_num": "003381",
+          "name": "Sticker Sheet for Set 663-1",
+          "part_cat_id": 58,
+          "part_url": "https://rebrickable.com/parts/003381/sticker-sheet-for-set-663-1/",
+          "part_img_url": null,
+          "external_ids": {
+            "BrickLink": [
+              "663stk01"
+            ],
+            "BrickOwl": [
+              "781719"
+            ]
+          },
+          "print_of": null
+        },
+        {
+          "part_num": "003383",
+          "name": "Sticker Sheet for Sets 618-1, 628-2",
+          "part_cat_id": 58,
+          "part_url": "https://rebrickable.com/parts/003383/sticker-sheet-for-sets-618-1-628-2/",
+          "part_img_url": null,
+          "external_ids": {
+            "BrickLink": [
+              "618stk01",
+              "628.2stk01"
+            ],
+            "BrickOwl": [
+              "273314"
+            ]
+          },
+          "print_of": null
+        },
+        {
+          "part_num": "003402",
+          "name": "Sticker Sheet for Sets 310-3, 311-1, 312-3",
+          "part_cat_id": 58,
+          "part_url": "https://rebrickable.com/parts/003402/sticker-sheet-for-sets-310-3-311-1-312-3/",
+          "part_img_url": "https://cdn.rebrickable.com/media/parts/photos/9999/003402-9999-f8670748-ef16-4530-a3fc-d935120c6dce.jpg",
+          "external_ids": {
+            "BrickLink": [
+              "310.3stk01",
+              "311.1stk01",
+              "312.3stk01"
+            ],
+            "BrickOwl": [
+              "484252"
+            ]
+          },
+          "print_of": null
+        },
+        {
+          "part_num": "003429",
+          "name": "Sticker Sheet for Set 1550-1",
+          "part_cat_id": 58,
+          "part_url": "https://rebrickable.com/parts/003429/sticker-sheet-for-set-1550-1/",
+          "part_img_url": null,
+          "external_ids": {
+            "BrickLink": [
+              "1550stk01"
+            ],
+            "BrickOwl": [
+              "776184"
+            ]
+          },
+          "print_of": null
+        }
+      ]
+    },
+    "parts/15104": {
+      "part_num": "15104",
+      "name": "Equipment Bracket 4 x 2 x 2 No Studs with Axle Hole",
+      "part_cat_id": 27,
+      "year_from": 2014,
+      "year_to": 2014,
+      "part_url": "https://rebrickable.com/parts/15104/equipment-bracket-4-x-2-x-2-no-studs-with-axle-hole/",
+      "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069867.jpg",
+      "prints": [],
+      "molds": [],
+      "alternates": [],
+      "external_ids": {
+        "BrickOwl": [
+          "627975"
+        ],
+        "Brickset": [
+          "15104"
+        ],
+        "LEGO": [
+          "15104"
         ]
       },
-      {
-        "color_id": 182,
-        "color_name": "Trans-Orange",
-        "num_sets": 4,
-        "num_set_parts": 4,
-        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069867.jpg",
-        "elements": [
-          "6069867"
-        ]
-      }
-    ]
-  },
-  "parts/15104/colors/182": {
-    "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069867.jpg",
-    "year_from": 2014,
-    "year_to": 2014,
-    "num_sets": 4,
-    "num_set_parts": 4,
-    "elements": [
-      "6069867"
-    ]
-  },
-  "parts/15104/colors/182/sets": {
-    "count": 4,
-    "next": null,
-    "previous": null,
-    "results": [
-      {
-        "set_num": "70149-1",
-        "name": "Scorching Blades",
-        "year": 2014,
-        "theme_id": 572,
-        "num_parts": 77,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/70149-1/5507.jpg",
-        "set_url": "https://rebrickable.com/sets/70149-1/scorching-blades/",
-        "last_modified_dt": "2015-02-22T16:13:57.651259Z"
-      },
-      {
-        "set_num": "70150-1",
-        "name": "Flaming Claws",
-        "year": 2014,
-        "theme_id": 572,
-        "num_parts": 74,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/70150-1/17490.jpg",
-        "set_url": "https://rebrickable.com/sets/70150-1/flaming-claws/",
-        "last_modified_dt": "2015-02-22T16:13:57.483073Z"
-      },
-      {
-        "set_num": "70155-1",
-        "name": "Inferno Pit",
-        "year": 2014,
-        "theme_id": 572,
-        "num_parts": 74,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/70155-1/2715.jpg",
-        "set_url": "https://rebrickable.com/sets/70155-1/inferno-pit/",
-        "last_modified_dt": "2015-02-22T16:13:57.440983Z"
-      },
-      {
-        "set_num": "70156-1",
-        "name": "Fire vs. Ice",
-        "year": 2014,
-        "theme_id": 572,
-        "num_parts": 102,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/70156-1/15259.jpg",
-        "set_url": "https://rebrickable.com/sets/70156-1/fire-vs-ice/",
-        "last_modified_dt": "2016-05-29T00:31:38.218700Z"
-      }
-    ]
-  },
-  "sets": {
-    "count": 18447,
-    "next": "https://rebrickable.com/api/v3/lego/sets/?page=2&page_size=4",
-    "previous": null,
-    "results": [
-      {
-        "set_num": "001-1",
-        "name": "Gears",
-        "year": 1965,
-        "theme_id": 1,
-        "num_parts": 43,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/001-1/11530.jpg",
-        "set_url": "https://rebrickable.com/sets/001-1/gears/",
-        "last_modified_dt": "2018-05-05T20:39:47.277922Z"
-      },
-      {
-        "set_num": "0011-2",
-        "name": "Town Mini-Figures",
-        "year": 1979,
-        "theme_id": 67,
-        "num_parts": 12,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/0011-2/3318.jpg",
-        "set_url": "https://rebrickable.com/sets/0011-2/town-mini-figures/",
-        "last_modified_dt": "2021-07-04T19:03:52.273186Z"
-      },
-      {
-        "set_num": "0011-3",
-        "name": "Castle 2 for 1 Bonus Offer",
-        "year": 1987,
-        "theme_id": 199,
-        "num_parts": 0,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/0011-3/2729.jpg",
-        "set_url": "https://rebrickable.com/sets/0011-3/castle-2-for-1-bonus-offer/",
-        "last_modified_dt": "2012-04-01T04:47:31.488559Z"
-      },
-      {
-        "set_num": "0012-1",
-        "name": "Space Mini-Figures",
-        "year": 1979,
-        "theme_id": 143,
-        "num_parts": 12,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/0012-1/1831.jpg",
-        "set_url": "https://rebrickable.com/sets/0012-1/space-mini-figures/",
-        "last_modified_dt": "2013-12-12T23:12:14.245364Z"
-      }
-    ]
-  },
-  "sets/42102-1": {
-    "set_num": "42102-1",
-    "name": "Mini CLAAS XERION",
-    "year": 2020,
-    "theme_id": 1,
-    "num_parts": 130,
-    "set_img_url": "https://cdn.rebrickable.com/media/sets/42102-1/17896.jpg",
-    "set_url": "https://rebrickable.com/sets/42102-1/mini-claas-xerion/",
-    "last_modified_dt": "2021-09-01T15:29:11.849966Z"
-  },
-  "sets/42102-1/alternates": {
-    "count": 173,
-    "next": "https://rebrickable.com/api/v3/lego/sets/42102-1/alternates/?page=2&page_size=2",
-    "previous": null,
-    "results": [
-      {
-        "set_num": "MOC-33707",
-        "name": "42102-C model : Harvester",
-        "year": 2020,
-        "theme_id": 1,
-        "num_parts": 121,
-        "moc_img_url": "https://cdn.rebrickable.com/media/mocs/moc-33707.jpg",
-        "moc_url": "https://rebrickable.com/mocs/MOC-33707/Antoineddp/42102-c-model-harvester/",
-        "designer_name": "Antoineddp",
-        "designer_url": "https://rebrickable.com/users/Antoineddp/mocs/"
-      },
-      {
-        "set_num": "MOC-33735",
-        "name": "European Truck",
-        "year": 2020,
-        "theme_id": 1,
-        "num_parts": 119,
-        "moc_img_url": "https://cdn.rebrickable.com/media/mocs/moc-33735.jpg",
-        "moc_url": "https://rebrickable.com/mocs/MOC-33735/Derronoth/european-truck/",
-        "designer_name": "Derronoth",
-        "designer_url": "https://rebrickable.com/users/Derronoth/mocs/"
-      }
-    ]
-  },
-  "sets/7018-1/minifigs": {
-    "count": 6,
-    "next": null,
-    "previous": null,
-    "results": [
-      {
-        "id": 10488,
-        "set_num": "fig-004673",
-        "set_name": "Viking King - Armour, Red Legs, Black Cape",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004673/72905.jpg"
-      },
-      {
-        "id": 10489,
-        "set_num": "fig-004674",
-        "set_name": "Viking Warrior - Armour, Bare Arms, Black Legs",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004674/69097.jpg"
-      },
-      {
-        "id": 10485,
-        "set_num": "fig-004670",
-        "set_name": "Viking Warrior - Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004670/73244.jpg"
-      },
-      {
-        "id": 10487,
-        "set_num": "fig-004672",
-        "set_name": "Viking Warrior - Armour, Sand BLue Arms",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004672/67664.jpg"
-      },
-      {
-        "id": 10484,
-        "set_num": "fig-004669",
-        "set_name": "Viking Warrior - Armour, Sand Blue Arms, Blue Legs",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004669/67665.jpg"
-      },
-      {
-        "id": 10486,
-        "set_num": "fig-004671",
-        "set_name": "Viking Warrior - Breast Plate, Dark Green Legs",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004671/67666.jpg"
-      }
-    ]
-  },
-  "sets/42102-1/parts": {
-    "count": 49,
-    "next": "https://rebrickable.com/api/v3/lego/sets/42102-1/parts/?page=2&page_size=4",
-    "previous": null,
-    "results": [
-      {
-        "id": 3454254,
-        "inv_part_id": 3454254,
-        "part": {
-          "part_num": "3705",
-          "name": "Technic Axle 4",
-          "part_cat_id": 46,
-          "part_url": "https://rebrickable.com/parts/3705/technic-axle-4/",
-          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/370526.jpg",
-          "external_ids": {
-            "BrickOwl": [
-              "184264"
-            ],
-            "Brickset": [
-              "3705"
-            ],
-            "LEGO": [
-              "3705"
-            ]
-          },
-          "print_of": null
+      "print_of": null
+    },
+    "parts/15104/colors": {
+      "count": 2,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "color_id": 41,
+          "color_name": "Trans-Light Blue",
+          "num_sets": 2,
+          "num_set_parts": 2,
+          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069866.jpg",
+          "elements": [
+            "6069866"
+          ]
         },
-        "color": {
-          "id": 0,
-          "name": "Black",
-          "rgb": "05131D",
-          "is_trans": false,
-          "external_ids": {
-            "BrickLink": {
-              "ext_ids": [
-                11
+        {
+          "color_id": 182,
+          "color_name": "Trans-Orange",
+          "num_sets": 4,
+          "num_set_parts": 4,
+          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069867.jpg",
+          "elements": [
+            "6069867"
+          ]
+        }
+      ]
+    },
+    "parts/15104/colors/182": {
+      "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6069867.jpg",
+      "year_from": 2014,
+      "year_to": 2014,
+      "num_sets": 4,
+      "num_set_parts": 4,
+      "elements": [
+        "6069867"
+      ]
+    },
+    "parts/15104/colors/182/sets": {
+      "count": 4,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "set_num": "70149-1",
+          "name": "Scorching Blades",
+          "year": 2014,
+          "theme_id": 572,
+          "num_parts": 77,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/70149-1/5507.jpg",
+          "set_url": "https://rebrickable.com/sets/70149-1/scorching-blades/",
+          "last_modified_dt": "2015-02-22T16:13:57.651259Z"
+        },
+        {
+          "set_num": "70150-1",
+          "name": "Flaming Claws",
+          "year": 2014,
+          "theme_id": 572,
+          "num_parts": 74,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/70150-1/17490.jpg",
+          "set_url": "https://rebrickable.com/sets/70150-1/flaming-claws/",
+          "last_modified_dt": "2015-02-22T16:13:57.483073Z"
+        },
+        {
+          "set_num": "70155-1",
+          "name": "Inferno Pit",
+          "year": 2014,
+          "theme_id": 572,
+          "num_parts": 74,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/70155-1/2715.jpg",
+          "set_url": "https://rebrickable.com/sets/70155-1/inferno-pit/",
+          "last_modified_dt": "2015-02-22T16:13:57.440983Z"
+        },
+        {
+          "set_num": "70156-1",
+          "name": "Fire vs. Ice",
+          "year": 2014,
+          "theme_id": 572,
+          "num_parts": 102,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/70156-1/15259.jpg",
+          "set_url": "https://rebrickable.com/sets/70156-1/fire-vs-ice/",
+          "last_modified_dt": "2016-05-29T00:31:38.218700Z"
+        }
+      ]
+    },
+    "sets": {
+      "count": 18447,
+      "next": "https://rebrickable.com/api/v3/lego/sets/?page=2&page_size=4",
+      "previous": null,
+      "results": [
+        {
+          "set_num": "001-1",
+          "name": "Gears",
+          "year": 1965,
+          "theme_id": 1,
+          "num_parts": 43,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/001-1/11530.jpg",
+          "set_url": "https://rebrickable.com/sets/001-1/gears/",
+          "last_modified_dt": "2018-05-05T20:39:47.277922Z"
+        },
+        {
+          "set_num": "0011-2",
+          "name": "Town Mini-Figures",
+          "year": 1979,
+          "theme_id": 67,
+          "num_parts": 12,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/0011-2/3318.jpg",
+          "set_url": "https://rebrickable.com/sets/0011-2/town-mini-figures/",
+          "last_modified_dt": "2021-07-04T19:03:52.273186Z"
+        },
+        {
+          "set_num": "0011-3",
+          "name": "Castle 2 for 1 Bonus Offer",
+          "year": 1987,
+          "theme_id": 199,
+          "num_parts": 0,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/0011-3/2729.jpg",
+          "set_url": "https://rebrickable.com/sets/0011-3/castle-2-for-1-bonus-offer/",
+          "last_modified_dt": "2012-04-01T04:47:31.488559Z"
+        },
+        {
+          "set_num": "0012-1",
+          "name": "Space Mini-Figures",
+          "year": 1979,
+          "theme_id": 143,
+          "num_parts": 12,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/0012-1/1831.jpg",
+          "set_url": "https://rebrickable.com/sets/0012-1/space-mini-figures/",
+          "last_modified_dt": "2013-12-12T23:12:14.245364Z"
+        }
+      ]
+    },
+    "sets/42102-1": {
+      "set_num": "42102-1",
+      "name": "Mini CLAAS XERION",
+      "year": 2020,
+      "theme_id": 1,
+      "num_parts": 130,
+      "set_img_url": "https://cdn.rebrickable.com/media/sets/42102-1/17896.jpg",
+      "set_url": "https://rebrickable.com/sets/42102-1/mini-claas-xerion/",
+      "last_modified_dt": "2021-09-01T15:29:11.849966Z"
+    },
+    "sets/42102-1/alternates": {
+      "count": 173,
+      "next": "https://rebrickable.com/api/v3/lego/sets/42102-1/alternates/?page=2&page_size=2",
+      "previous": null,
+      "results": [
+        {
+          "set_num": "MOC-33707",
+          "name": "42102-C model : Harvester",
+          "year": 2020,
+          "theme_id": 1,
+          "num_parts": 121,
+          "moc_img_url": "https://cdn.rebrickable.com/media/mocs/moc-33707.jpg",
+          "moc_url": "https://rebrickable.com/mocs/MOC-33707/Antoineddp/42102-c-model-harvester/",
+          "designer_name": "Antoineddp",
+          "designer_url": "https://rebrickable.com/users/Antoineddp/mocs/"
+        },
+        {
+          "set_num": "MOC-33735",
+          "name": "European Truck",
+          "year": 2020,
+          "theme_id": 1,
+          "num_parts": 119,
+          "moc_img_url": "https://cdn.rebrickable.com/media/mocs/moc-33735.jpg",
+          "moc_url": "https://rebrickable.com/mocs/MOC-33735/Derronoth/european-truck/",
+          "designer_name": "Derronoth",
+          "designer_url": "https://rebrickable.com/users/Derronoth/mocs/"
+        }
+      ]
+    },
+    "sets/7018-1/minifigs": {
+      "count": 6,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 10488,
+          "set_num": "fig-004673",
+          "set_name": "Viking King - Armour, Red Legs, Black Cape",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004673/72905.jpg"
+        },
+        {
+          "id": 10489,
+          "set_num": "fig-004674",
+          "set_name": "Viking Warrior - Armour, Bare Arms, Black Legs",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004674/69097.jpg"
+        },
+        {
+          "id": 10485,
+          "set_num": "fig-004670",
+          "set_name": "Viking Warrior - Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004670/73244.jpg"
+        },
+        {
+          "id": 10487,
+          "set_num": "fig-004672",
+          "set_name": "Viking Warrior - Armour, Sand BLue Arms",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004672/67664.jpg"
+        },
+        {
+          "id": 10484,
+          "set_num": "fig-004669",
+          "set_name": "Viking Warrior - Armour, Sand Blue Arms, Blue Legs",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004669/67665.jpg"
+        },
+        {
+          "id": 10486,
+          "set_num": "fig-004671",
+          "set_name": "Viking Warrior - Breast Plate, Dark Green Legs",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-004671/67666.jpg"
+        }
+      ]
+    },
+    "sets/42102-1/parts": {
+      "count": 49,
+      "next": "https://rebrickable.com/api/v3/lego/sets/42102-1/parts/?page=2&page_size=4",
+      "previous": null,
+      "results": [
+        {
+          "id": 3454254,
+          "inv_part_id": 3454254,
+          "part": {
+            "part_num": "3705",
+            "name": "Technic Axle 4",
+            "part_cat_id": 46,
+            "part_url": "https://rebrickable.com/parts/3705/technic-axle-4/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/370526.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "184264"
               ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
+              "Brickset": [
+                "3705"
+              ],
+              "LEGO": [
+                "3705"
               ]
             },
-            "BrickOwl": {
-              "ext_ids": [
-                38
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "LEGO": {
-              "ext_ids": [
-                26,
-                149,
-                1012
-              ],
-              "ext_descrs": [
-                [
-                  "Black",
-                  "BLACK"
+            "print_of": null
+          },
+          "color": {
+            "id": 0,
+            "name": "Black",
+            "rgb": "05131D",
+            "is_trans": false,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  11
                 ],
-                [
-                  "Metallic Black",
-                  "MET.BLACK"
-                ],
-                [
-                  "CONDUCT. BLACK"
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
                 ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  38
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  26,
+                  149,
+                  1012
+                ],
+                "ext_descrs": [
+                  [
+                    "Black",
+                    "BLACK"
+                  ],
+                  [
+                    "Metallic Black",
+                    "MET.BLACK"
+                  ],
+                  [
+                    "CONDUCT. BLACK"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "black"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  0,
+                  256
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ],
+                  [
+                    "Rubber_Black"
+                  ]
+                ]
+              }
+            }
+          },
+          "set_num": "42102-1",
+          "quantity": 1,
+          "is_spare": false,
+          "element_id": "370526",
+          "num_sets": 1370
+        },
+        {
+          "id": 3454252,
+          "inv_part_id": 3454252,
+          "part": {
+            "part_num": "32013",
+            "name": "Technic Axle and Pin Connector Angled #1",
+            "part_cat_id": 12,
+            "part_url": "https://rebrickable.com/parts/32013/technic-axle-and-pin-connector-angled-1/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4107085.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "988519"
+              ],
+              "Brickset": [
+                "32013",
+                "42127"
+              ],
+              "LEGO": [
+                "32013",
+                "42127"
               ]
             },
-            "Peeron": {
-              "ext_ids": [
-                null
-              ],
-              "ext_descrs": [
-                [
-                  "black"
+            "print_of": null
+          },
+          "color": {
+            "id": 0,
+            "name": "Black",
+            "rgb": "05131D",
+            "is_trans": false,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  11
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
                 ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  38
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  26,
+                  149,
+                  1012
+                ],
+                "ext_descrs": [
+                  [
+                    "Black",
+                    "BLACK"
+                  ],
+                  [
+                    "Metallic Black",
+                    "MET.BLACK"
+                  ],
+                  [
+                    "CONDUCT. BLACK"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "black"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  0,
+                  256
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ],
+                  [
+                    "Rubber_Black"
+                  ]
+                ]
+              }
+            }
+          },
+          "set_num": "42102-1",
+          "quantity": 4,
+          "is_spare": false,
+          "element_id": "6284699",
+          "num_sets": 428
+        },
+        {
+          "id": 3454240,
+          "inv_part_id": 3454240,
+          "part": {
+            "part_num": "42003",
+            "name": "Technic Axle and Pin Connector Perpendicular 3L with 2 Pin Holes",
+            "part_cat_id": 12,
+            "part_url": "https://rebrickable.com/parts/42003/technic-axle-and-pin-connector-perpendicular-3l-with-2-pin-holes/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4173970.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "661602"
+              ],
+              "Brickset": [
+                "42003",
+                "42796"
+              ],
+              "LEGO": [
+                "42003",
+                "42796"
               ]
             },
-            "LDraw": {
-              "ext_ids": [
-                0,
-                256
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
+            "print_of": null
+          },
+          "color": {
+            "id": 0,
+            "name": "Black",
+            "rgb": "05131D",
+            "is_trans": false,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  11
                 ],
-                [
-                  "Rubber_Black"
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
                 ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  38
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  26,
+                  149,
+                  1012
+                ],
+                "ext_descrs": [
+                  [
+                    "Black",
+                    "BLACK"
+                  ],
+                  [
+                    "Metallic Black",
+                    "MET.BLACK"
+                  ],
+                  [
+                    "CONDUCT. BLACK"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "black"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  0,
+                  256
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ],
+                  [
+                    "Rubber_Black"
+                  ]
+                ]
+              }
+            }
+          },
+          "set_num": "42102-1",
+          "quantity": 3,
+          "is_spare": false,
+          "element_id": "6273708",
+          "num_sets": 189
+        },
+        {
+          "id": 3454228,
+          "inv_part_id": 3454228,
+          "part": {
+            "part_num": "43857",
+            "name": "Technic Beam 1 x 2 Thick",
+            "part_cat_id": 51,
+            "part_url": "https://rebrickable.com/parts/43857/technic-beam-1-x-2-thick/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4177444.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "79080"
+              ],
+              "Brickset": [
+                "43857"
+              ],
+              "LEGO": [
+                "43857"
               ]
+            },
+            "print_of": null
+          },
+          "color": {
+            "id": 0,
+            "name": "Black",
+            "rgb": "05131D",
+            "is_trans": false,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  11
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  38
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  26,
+                  149,
+                  1012
+                ],
+                "ext_descrs": [
+                  [
+                    "Black",
+                    "BLACK"
+                  ],
+                  [
+                    "Metallic Black",
+                    "MET.BLACK"
+                  ],
+                  [
+                    "CONDUCT. BLACK"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "black"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  0,
+                  256
+                ],
+                "ext_descrs": [
+                  [
+                    "Black"
+                  ],
+                  [
+                    "Rubber_Black"
+                  ]
+                ]
+              }
+            }
+          },
+          "set_num": "42102-1",
+          "quantity": 4,
+          "is_spare": false,
+          "element_id": "4385726",
+          "num_sets": 111
+        }
+      ]
+    },
+    "sets/65757-1/sets": {
+      "count": 2,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 82,
+          "set_num": "8762-1",
+          "set_name": "Toa Iruini",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/8762-1/16693.jpg"
+        },
+        {
+          "id": 1018,
+          "set_num": "8763-1",
+          "set_name": "Toa Norik",
+          "quantity": 1,
+          "set_img_url": "https://cdn.rebrickable.com/media/sets/8763-1/16694.jpg"
+        }
+      ]
+    },
+    "themes": {
+      "count": 443,
+      "next": "https://rebrickable.com/api/v3/lego/themes/?page=2&page_size=2",
+      "previous": null,
+      "results": [
+        {
+          "id": 1,
+          "parent_id": null,
+          "name": "Technic"
+        },
+        {
+          "id": 3,
+          "parent_id": 1,
+          "name": "Competition"
+        }
+      ]
+    },
+    "themes/3": {
+      "id": 3,
+      "parent_id": 1,
+      "name": "Competition"
+    }
+  },
+
+  "users": {
+    "_token": {
+      "user_token": ""
+    },
+    "allparts": {
+      "count": 4086,
+      "next": "https://rebrickable.com/api/v3/users/arandomtoken/allparts/?page=2&page_size=5",
+      "previous": null,
+      "results": [
+        {
+          "quantity": 2,
+          "part": {
+            "part_num": "3039",
+            "name": "Slope 45° 2 x 2",
+            "part_cat_id": 3,
+            "part_url": "https://rebrickable.com/parts/3039/slope-45-2-x-2/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/303921.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "822931"
+              ],
+              "Brickset": [
+                "3039",
+                "35277",
+                "6227",
+                "63341"
+              ],
+              "LEGO": [
+                "3039",
+                "35277",
+                "6227",
+                "63341"
+              ]
+            },
+            "print_of": null
+          },
+          "color": {
+            "id": 40,
+            "name": "Trans-Black",
+            "rgb": "635F52",
+            "is_trans": null,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  13
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans-Black"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  95
+                ],
+                "ext_descrs": [
+                  [
+                    "Transparent Black"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  111
+                ],
+                "ext_descrs": [
+                  [
+                    "Tr. Brown",
+                    "TR.BROWN"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "smoke"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  40
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans_Black"
+                  ]
+                ]
+              }
             }
           }
         },
-        "set_num": "42102-1",
-        "quantity": 1,
-        "is_spare": false,
-        "element_id": "370526",
-        "num_sets": 1370
-      },
-      {
-        "id": 3454252,
-        "inv_part_id": 3454252,
-        "part": {
-          "part_num": "32013",
-          "name": "Technic Axle and Pin Connector Angled #1",
-          "part_cat_id": 12,
-          "part_url": "https://rebrickable.com/parts/32013/technic-axle-and-pin-connector-angled-1/",
-          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4107085.jpg",
-          "external_ids": {
-            "BrickOwl": [
-              "988519"
-            ],
-            "Brickset": [
-              "32013",
-              "42127"
-            ],
-            "LEGO": [
-              "32013",
-              "42127"
-            ]
+        {
+          "quantity": 21,
+          "part": {
+            "part_num": "54200",
+            "name": "Slope 30° 1 x 1 x 2/3 (Cheese Slope)",
+            "part_cat_id": 3,
+            "part_url": "https://rebrickable.com/parts/54200/slope-30-1-x-1-x-23-cheese-slope/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4504382.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "158788"
+              ],
+              "Brickset": [
+                "18862",
+                "33847",
+                "35338",
+                "50746",
+                "54200",
+                "63290"
+              ],
+              "LEGO": [
+                "18862",
+                "33847",
+                "35338",
+                "50746",
+                "54200",
+                "63290"
+              ]
+            },
+            "print_of": null
           },
-          "print_of": null
-        },
-        "color": {
-          "id": 0,
-          "name": "Black",
-          "rgb": "05131D",
-          "is_trans": false,
-          "external_ids": {
-            "BrickLink": {
-              "ext_ids": [
-                11
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "BrickOwl": {
-              "ext_ids": [
-                38
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "LEGO": {
-              "ext_ids": [
-                26,
-                149,
-                1012
-              ],
-              "ext_descrs": [
-                [
-                  "Black",
-                  "BLACK"
+          "color": {
+            "id": 40,
+            "name": "Trans-Black",
+            "rgb": "635F52",
+            "is_trans": null,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  13
                 ],
-                [
-                  "Metallic Black",
-                  "MET.BLACK"
+                "ext_descrs": [
+                  [
+                    "Trans-Black"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  95
                 ],
-                [
-                  "CONDUCT. BLACK"
+                "ext_descrs": [
+                  [
+                    "Transparent Black"
+                  ]
                 ]
-              ]
-            },
-            "Peeron": {
-              "ext_ids": [
-                null
-              ],
-              "ext_descrs": [
-                [
-                  "black"
-                ]
-              ]
-            },
-            "LDraw": {
-              "ext_ids": [
-                0,
-                256
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
+              },
+              "LEGO": {
+                "ext_ids": [
+                  111
                 ],
-                [
-                  "Rubber_Black"
+                "ext_descrs": [
+                  [
+                    "Tr. Brown",
+                    "TR.BROWN"
+                  ]
                 ]
-              ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "smoke"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  40
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans_Black"
+                  ]
+                ]
+              }
             }
           }
         },
-        "set_num": "42102-1",
-        "quantity": 4,
-        "is_spare": false,
-        "element_id": "6284699",
-        "num_sets": 428
-      },
-      {
-        "id": 3454240,
-        "inv_part_id": 3454240,
-        "part": {
-          "part_num": "42003",
-          "name": "Technic Axle and Pin Connector Perpendicular 3L with 2 Pin Holes",
-          "part_cat_id": 12,
-          "part_url": "https://rebrickable.com/parts/42003/technic-axle-and-pin-connector-perpendicular-3l-with-2-pin-holes/",
-          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4173970.jpg",
-          "external_ids": {
-            "BrickOwl": [
-              "661602"
-            ],
-            "Brickset": [
-              "42003",
-              "42796"
-            ],
-            "LEGO": [
-              "42003",
-              "42796"
-            ]
+        {
+          "quantity": 10,
+          "part": {
+            "part_num": "3069b",
+            "name": "Tile 1 x 2 with Groove",
+            "part_cat_id": 19,
+            "part_url": "https://rebrickable.com/parts/3069b/tile-1-x-2-with-groove/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/306901.jpg",
+            "external_ids": {
+              "BrickLink": [
+                "3069b"
+              ],
+              "BrickOwl": [
+                "487300"
+              ],
+              "Brickset": [
+                "15598",
+                "30070",
+                "3069",
+                "30695",
+                "35386",
+                "37293",
+                "45880",
+                "54285",
+                "59489",
+                "63286"
+              ],
+              "LEGO": [
+                "15598",
+                "30070",
+                "3069",
+                "30695",
+                "35386",
+                "37293",
+                "45880",
+                "54285",
+                "59489",
+                "63286"
+              ]
+            },
+            "print_of": null
           },
-          "print_of": null
-        },
-        "color": {
-          "id": 0,
-          "name": "Black",
-          "rgb": "05131D",
-          "is_trans": false,
-          "external_ids": {
-            "BrickLink": {
-              "ext_ids": [
-                11
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "BrickOwl": {
-              "ext_ids": [
-                38
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "LEGO": {
-              "ext_ids": [
-                26,
-                149,
-                1012
-              ],
-              "ext_descrs": [
-                [
-                  "Black",
-                  "BLACK"
+          "color": {
+            "id": 40,
+            "name": "Trans-Black",
+            "rgb": "635F52",
+            "is_trans": null,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  13
                 ],
-                [
-                  "Metallic Black",
-                  "MET.BLACK"
+                "ext_descrs": [
+                  [
+                    "Trans-Black"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  95
                 ],
-                [
-                  "CONDUCT. BLACK"
+                "ext_descrs": [
+                  [
+                    "Transparent Black"
+                  ]
                 ]
-              ]
-            },
-            "Peeron": {
-              "ext_ids": [
-                null
-              ],
-              "ext_descrs": [
-                [
-                  "black"
-                ]
-              ]
-            },
-            "LDraw": {
-              "ext_ids": [
-                0,
-                256
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
+              },
+              "LEGO": {
+                "ext_ids": [
+                  111
                 ],
-                [
-                  "Rubber_Black"
+                "ext_descrs": [
+                  [
+                    "Tr. Brown",
+                    "TR.BROWN"
+                  ]
                 ]
-              ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "smoke"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  40
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans_Black"
+                  ]
+                ]
+              }
             }
           }
         },
-        "set_num": "42102-1",
-        "quantity": 3,
-        "is_spare": false,
-        "element_id": "6273708",
-        "num_sets": 189
-      },
-      {
-        "id": 3454228,
-        "inv_part_id": 3454228,
-        "part": {
-          "part_num": "43857",
-          "name": "Technic Beam 1 x 2 Thick",
-          "part_cat_id": 51,
-          "part_url": "https://rebrickable.com/parts/43857/technic-beam-1-x-2-thick/",
-          "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4177444.jpg",
-          "external_ids": {
-            "BrickOwl": [
-              "79080"
-            ],
-            "Brickset": [
-              "43857"
-            ],
-            "LEGO": [
-              "43857"
-            ]
+        {
+          "quantity": 4,
+          "part": {
+            "part_num": "3065",
+            "name": "Brick 1 x 2 without Bottom Tube",
+            "part_cat_id": 11,
+            "part_url": "https://rebrickable.com/parts/3065/brick-1-x-2-without-bottom-tube/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/306540.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "887549"
+              ],
+              "Brickset": [
+                "3065",
+                "35743"
+              ],
+              "LEGO": [
+                "3065",
+                "35743"
+              ]
+            },
+            "print_of": null
           },
-          "print_of": null
-        },
-        "color": {
-          "id": 0,
-          "name": "Black",
-          "rgb": "05131D",
-          "is_trans": false,
-          "external_ids": {
-            "BrickLink": {
-              "ext_ids": [
-                11
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "BrickOwl": {
-              "ext_ids": [
-                38
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
-                ]
-              ]
-            },
-            "LEGO": {
-              "ext_ids": [
-                26,
-                149,
-                1012
-              ],
-              "ext_descrs": [
-                [
-                  "Black",
-                  "BLACK"
+          "color": {
+            "id": 40,
+            "name": "Trans-Black",
+            "rgb": "635F52",
+            "is_trans": null,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  13
                 ],
-                [
-                  "Metallic Black",
-                  "MET.BLACK"
+                "ext_descrs": [
+                  [
+                    "Trans-Black"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  95
                 ],
-                [
-                  "CONDUCT. BLACK"
+                "ext_descrs": [
+                  [
+                    "Transparent Black"
+                  ]
                 ]
-              ]
-            },
-            "Peeron": {
-              "ext_ids": [
-                null
-              ],
-              "ext_descrs": [
-                [
-                  "black"
-                ]
-              ]
-            },
-            "LDraw": {
-              "ext_ids": [
-                0,
-                256
-              ],
-              "ext_descrs": [
-                [
-                  "Black"
+              },
+              "LEGO": {
+                "ext_ids": [
+                  111
                 ],
-                [
-                  "Rubber_Black"
+                "ext_descrs": [
+                  [
+                    "Tr. Brown",
+                    "TR.BROWN"
+                  ]
                 ]
-              ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "smoke"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  40
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans_Black"
+                  ]
+                ]
+              }
             }
           }
         },
-        "set_num": "42102-1",
-        "quantity": 4,
-        "is_spare": false,
-        "element_id": "4385726",
-        "num_sets": 111
+        {
+          "quantity": 2,
+          "part": {
+            "part_num": "30602",
+            "name": "Slope Curved 2 x 2 with Lip, No Studs",
+            "part_cat_id": 37,
+            "part_url": "https://rebrickable.com/parts/30602/slope-curved-2-x-2-with-lip-no-studs/",
+            "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4217722.jpg",
+            "external_ids": {
+              "BrickOwl": [
+                "457645"
+              ],
+              "Brickset": [
+                "28659",
+                "30602",
+                "47904",
+                "54415"
+              ],
+              "LEGO": [
+                "28659",
+                "30602",
+                "47904",
+                "54415"
+              ],
+              "Peeron": [
+                "47904"
+              ]
+            },
+            "print_of": null
+          },
+          "color": {
+            "id": 40,
+            "name": "Trans-Black",
+            "rgb": "635F52",
+            "is_trans": null,
+            "external_ids": {
+              "BrickLink": {
+                "ext_ids": [
+                  13
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans-Black"
+                  ]
+                ]
+              },
+              "BrickOwl": {
+                "ext_ids": [
+                  95
+                ],
+                "ext_descrs": [
+                  [
+                    "Transparent Black"
+                  ]
+                ]
+              },
+              "LEGO": {
+                "ext_ids": [
+                  111
+                ],
+                "ext_descrs": [
+                  [
+                    "Tr. Brown",
+                    "TR.BROWN"
+                  ]
+                ]
+              },
+              "Peeron": {
+                "ext_ids": [
+                  null
+                ],
+                "ext_descrs": [
+                  [
+                    "smoke"
+                  ]
+                ]
+              },
+              "LDraw": {
+                "ext_ids": [
+                  40
+                ],
+                "ext_descrs": [
+                  [
+                    "Trans_Black"
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "build/7018-1": {
+      "user": 591973,
+      "inventory": 14619,
+      "user_list": null,
+      "pct_owned": 100,
+      "num_missing": 0,
+      "num_ignored": 23,
+      "num_owned_less_ignored": 557,
+      "total_parts": 580,
+      "total_parts_less_ignored": 557,
+      "build_options": {
+        "ignore_print": true,
+        "ignore_mold": true,
+        "ignore_altp": false,
+        "ignore_minifigs": true,
+        "ignore_non_lego": true,
+        "sort_by": 1,
+        "color": 1,
+        "theme": null,
+        "min_parts": 50,
+        "max_parts": 5000,
+        "min_year": 2000,
+        "max_year": 3000,
+        "added_days_ago": 366,
+        "inc_official": true,
+        "inc_custom": true,
+        "inc_bmodels": false,
+        "inc_accessory": false,
+        "inc_premium": true,
+        "inc_alts": true,
+        "inc_owned": false
       }
-    ]
-  },
-  "sets/65757-1/sets": {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-      {
-        "id": 82,
-        "set_num": "8762-1",
-        "set_name": "Toa Iruini",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/8762-1/16693.jpg"
-      },
-      {
-        "id": 1018,
-        "set_num": "8763-1",
-        "set_name": "Toa Norik",
-        "quantity": 1,
-        "set_img_url": "https://cdn.rebrickable.com/media/sets/8763-1/16694.jpg"
-      }
-    ]
-  },
-  "themes": {
-    "count": 443,
-    "next": "https://rebrickable.com/api/v3/lego/themes/?page=2&page_size=2",
-    "previous": null,
-    "results": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "name": "Technic"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "name": "Competition"
-      }
-    ]
-  },
-  "themes/3": {
-    "id": 3,
-    "parent_id": 1,
-    "name": "Competition"
+    },
+    "lost_parts": {
+      "count": 5,
+      "next": "https://rebrickable.com/api/v3/users/arandomtoken/lost_parts/?page=2&page_size=2",
+      "previous": null,
+      "results": [
+        {
+          "lost_part_id": 2057689,
+          "lost_quantity": 1,
+          "inv_part": {
+            "id": 6952725,
+            "inv_part_id": 6952725,
+            "part": {
+              "part_num": "4449",
+              "name": "Bag / Briefcase",
+              "part_cat_id": 27,
+              "part_url": "https://rebrickable.com/parts/4449/bag-briefcase/",
+              "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4211712.jpg",
+              "external_ids": {
+                "BrickOwl": [
+                  "985272"
+                ],
+                "Brickset": [
+                  "4449"
+                ],
+                "LDraw": [
+                  "4449",
+                  "4449-f1",
+                  "4449-f2"
+                ],
+                "LEGO": [
+                  "4449"
+                ]
+              },
+              "print_of": null
+            },
+            "color": {
+              "id": 71,
+              "name": "Light Bluish Gray",
+              "rgb": "A0A5A9",
+              "is_trans": false,
+              "external_ids": {
+                "BrickLink": {
+                  "ext_ids": [
+                    86
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Light Bluish Gray"
+                    ]
+                  ]
+                },
+                "BrickOwl": {
+                  "ext_ids": [
+                    64
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Medium Stone Gray"
+                    ]
+                  ]
+                },
+                "LEGO": {
+                  "ext_ids": [
+                    194
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Medium stone grey",
+                      "MED. ST-GREY"
+                    ]
+                  ]
+                },
+                "Peeron": {
+                  "ext_ids": [
+                    null
+                  ],
+                  "ext_descrs": [
+                    [
+                      "mdstone"
+                    ]
+                  ]
+                },
+                "LDraw": {
+                  "ext_ids": [
+                    71
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Light_Bluish_Gray"
+                    ]
+                  ]
+                }
+              }
+            },
+            "set_num": "10159-1",
+            "quantity": 4,
+            "is_spare": false,
+            "element_id": "6268858",
+            "num_sets": 31
+          }
+        },
+        {
+          "lost_part_id": 2057690,
+          "lost_quantity": 1,
+          "inv_part": {
+            "id": 6952661,
+            "inv_part_id": 6952661,
+            "part": {
+              "part_num": "3899",
+              "name": "Equipment Cup / Mug [Plain]",
+              "part_cat_id": 27,
+              "part_url": "https://rebrickable.com/parts/3899/equipment-cup-mug-plain/",
+              "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6238856.jpg",
+              "external_ids": {
+                "BrickOwl": [
+                  "321072"
+                ],
+                "Brickset": [
+                  "28655",
+                  "3899",
+                  "6264"
+                ],
+                "LDraw": [
+                  "150",
+                  "3899",
+                  "6264"
+                ],
+                "LEGO": [
+                  "28655",
+                  "3899",
+                  "6264"
+                ]
+              },
+              "print_of": null
+            },
+            "color": {
+              "id": 47,
+              "name": "Trans-Clear",
+              "rgb": "FCFCFC",
+              "is_trans": true,
+              "external_ids": {
+                "BrickLink": {
+                  "ext_ids": [
+                    12
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Trans-Clear"
+                    ]
+                  ]
+                },
+                "BrickOwl": {
+                  "ext_ids": [
+                    97
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Transparent"
+                    ]
+                  ]
+                },
+                "LEGO": {
+                  "ext_ids": [
+                    40
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Transparent",
+                      "TR."
+                    ]
+                  ]
+                },
+                "Peeron": {
+                  "ext_ids": [
+                    null
+                  ],
+                  "ext_descrs": [
+                    [
+                      "clear"
+                    ]
+                  ]
+                },
+                "LDraw": {
+                  "ext_ids": [
+                    47
+                  ],
+                  "ext_descrs": [
+                    [
+                      "Trans_Clear"
+                    ]
+                  ]
+                }
+              }
+            },
+            "set_num": "10159-1",
+            "quantity": 2,
+            "is_spare": false,
+            "element_id": "626440",
+            "num_sets": 128
+          }
+        }
+      ]
+    },
+    "minifigs": {
+      "count": 126,
+      "next": "https://rebrickable.com/api/v3/users/arandomtoken/minifigs/?page=2&page_size=2",
+      "previous": null,
+      "results": [
+        {
+          "quantity": 1,
+          "minifig": {
+            "set_num": "fig-000362",
+            "name": "Ninja, Dark Gray",
+            "num_parts": 4,
+            "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000362/67826.jpg",
+            "set_url": "https://rebrickable.com/minifigs/fig-000362/ninja-dark-gray/",
+            "last_modified_dt": "2020-05-02T19:23:48.580163Z"
+          }
+        },
+        {
+          "quantity": 1,
+          "minifig": {
+            "set_num": "fig-000365",
+            "name": "Construction Worker, Orange Jacket with Zipper and Reflective Stripes, Blue Legs, Red Hard Hat, Moustache and Stubble",
+            "num_parts": 4,
+            "set_img_url": "https://cdn.rebrickable.com/media/sets/fig-000365/66975.jpg",
+            "set_url": "https://rebrickable.com/minifigs/fig-000365/construction-worker-orange-jacket-with-zipper-and-reflective-stripes-blue-legs-red-hard-hat-moustache-and-stubble/",
+            "last_modified_dt": "2020-06-08T02:53:30.015267Z"
+          }
+        }
+      ]
+    },
+    "partlists": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 344498,
+          "is_buildable": false,
+          "name": "test",
+          "num_parts": 1
+        }
+      ]
+    }
   }
 }
