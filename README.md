@@ -2,6 +2,7 @@
 
 [![go-rebrickable release (latest SemVer)](https://img.shields.io/github/v/release/thelolagemann/go-rebrickable?sort=semver)](https://github.com/thelolagemann/go-rebrickable/releases)
 [![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/thelolagemann/go-rebrickable)
+[![Go](https://github.com/thelolagemann/go-rebrickable/actions/workflows/go.yml/badge.svg)](https://github.com/thelolagemann/go-rebrickable/actions/workflows/go.yml)
 
 go-rebrickable is a Go client library for accessing the [Rebrickable API V3](https://rebrickable.com/api/v3/docs/).
 
