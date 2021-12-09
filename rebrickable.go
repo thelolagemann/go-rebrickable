@@ -136,10 +136,6 @@ func (c *Client) formRequest(method, endpoint string, form url.Values, dest inte
 }
 
 func decodeJSON(r *http.Response, paginated bool, dest interface{}) error {
-	if r.Header.Get("Content-Type") != "application/json" {
-		return errors.New("Content-Type header is not application/json")
-	}
-
 	if !(r.StatusCode >= 200 && r.StatusCode < 300) {
 		type apiError struct {
 			Detail string `json:"detail"`
@@ -152,6 +148,11 @@ func decodeJSON(r *http.Response, paginated bool, dest interface{}) error {
 			return fmt.Errorf("http request not OK: %v", r.StatusCode)
 		}
 	}
+
+	if r.Header.Get("Content-Type") != "application/json" {
+		return fmt.Errorf("expecting content-type of application/json, got: %v", r.Header.Get("Content-Type"))
+	}
+
 	dec := json.NewDecoder(r.Body)
 	dec.DisallowUnknownFields()
 
