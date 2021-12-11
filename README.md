@@ -34,7 +34,7 @@ import (
 )
 
 func main() {
-	client := rbrick.NewLEGOClient("API_KEY")
+	client := rbrick.NewClient("API_KEY")
 	color, _ := client.Color(212)
 	fmt.Println(color.Name)
 	
@@ -48,7 +48,7 @@ to use a custom HTTP client.
 
 ```go
 httpClient := &http.Client{Timeout: time.Second * 30}
-client := rbrick.NewLEGOClient(apiKey, rbrick.HTTPClient(httpClient))
+client := rbrick.NewClient(apiKey, rbrick.HTTPClient(httpClient))
 ```
 
 Several endpoints accept additional query parameters in order to filter your search. For example, to use a page size of
