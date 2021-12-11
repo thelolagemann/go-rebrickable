@@ -35,9 +35,8 @@ var (
 			Body: r,
 		}, nil
 	}
-	client     = NewClient("", HTTPClient(globalMock))
-	legoClient = NewLEGOClient("API_KEY", HTTPClient(globalMock))
-	tData      testData
+	client = NewClient("", HTTPClient(globalMock))
+	tData  testData
 )
 
 type testData struct {
