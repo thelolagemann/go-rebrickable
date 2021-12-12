@@ -52,15 +52,10 @@ func (c *Client) newRequest(method, endpoint string, body io.Reader, opts ...Req
 	return req, nil
 }
 
-func (c *Client) Delete(endpoint string, opts ...RequestOption) error {
-	req, err := c.newRequest("DELETE", endpoint, nil)
+func (c *Client) delete(endpoint string, opts ...RequestOption) error {
+	req, err := c.newRequest("DELETE", endpoint, nil, opts...)
 	if err != nil {
 		return err
-	}
-
-	// apply request opts
-	for _, opt := range opts {
-		opt(req)
 	}
 
 	// do request
@@ -76,17 +71,15 @@ func (c *Client) Delete(endpoint string, opts ...RequestOption) error {
 	return nil
 }
 
-func (c *Client) Get(endpoint string, opts ...RequestOption) (*http.Response, error) {
+
+func (c *Client) get(endpoint string, paginated bool, dest interface{}, opts ...RequestOption) error {
 	req, err := c.newRequest("GET", endpoint, nil, opts...)
 	if err != nil {
-		return nil, err
+		return err
 	}
 
-	return c.Do(req)
-}
+	res, err := c.Do(req)
 
-func (c *Client) GetDecode(endpoint string, paginated bool, dest interface{}, opts ...RequestOption) error {
-	res, err := c.Get(endpoint, opts...)
 	if err != nil {
 		return err
 	}
@@ -94,15 +87,15 @@ func (c *Client) GetDecode(endpoint string, paginated bool, dest interface{}, op
 	return decodeJSON(res, paginated, dest)
 }
 
-func (c *Client) Patch(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
+func (c *Client) patch(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
 	return c.formRequest("PATCH", endpoint, form, dest, opts...)
 }
 
-func (c *Client) Post(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
+func (c *Client) post(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
 	return c.formRequest("POST", endpoint, form, dest, opts...)
 }
 
-func (c *Client) Put(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
+func (c *Client) put(endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
 	return c.formRequest("PUT", endpoint, form, dest, opts...)
 }
 
@@ -110,18 +103,13 @@ func (c *Client) Put(endpoint string, form url.Values, dest interface{}, opts ..
 // execute an HTTP request supplied with formData. Optionally
 // decoding the result into dest.
 func (c *Client) formRequest(method, endpoint string, form url.Values, dest interface{}, opts ...RequestOption) error {
-	req, err := c.newRequest(method, endpoint, strings.NewReader(form.Encode()))
+	req, err := c.newRequest(method, endpoint, strings.NewReader(form.Encode()), opts...)
 	if err != nil {
 		return err
 	}
 
 	// set content-type header
 	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
-
-	// apply request opts
-	for _, opt := range opts {
-		opt(req)
-	}
 
 	res, err := c.Do(req)
 	if err != nil {
