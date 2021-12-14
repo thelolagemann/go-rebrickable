@@ -35,6 +35,26 @@ func NewClient(apiKey string, opts ...ClientOption) *Client {
 	return c
 }
 
+func (c *Client) Login(username, password string) (*User, error) {
+	loginForm := url.Values{}
+	loginForm.Set("username", username)
+	loginForm.Set("password", password)
+
+	loginReq := struct {
+		Token string `json:"user_token"`
+	}{}
+	if err := c.formRequest("POST", "users/_token", loginForm, &loginReq); err != nil {
+		return nil, err
+	}
+
+	user := &User{
+		Client: c,
+		token: loginReq.Token,
+	}
+
+	return user, nil
+}
+
 func (c *Client) newRequest(method, endpoint string, body io.Reader, opts ...RequestOption) (*http.Request, error) {
 	req, err := http.NewRequest(method, fmt.Sprintf("%v%v", baseURL, endpoint), body)
 	if err != nil {
